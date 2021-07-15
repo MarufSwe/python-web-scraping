@@ -1,0 +1,68 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="CssUnknownProperty" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myCustomPropertiesEnabled" value="true" />
+      <option name="myIgnoreVendorSpecificProperties" value="false" />
+      <option name="myCustomPropertiesList">
+        <value>
+          <list size="1">
+            <item index="0" class="java.lang.String" itemvalue="border-center" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="16">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="samplepostheader" />
+            <item index="7" class="java.lang.String" itemvalue="master" />
+            <item index="8" class="java.lang.String" itemvalue="body" />
+            <item index="9" class="java.lang.String" itemvalue="router-view" />
+            <item index="10" class="java.lang.String" itemvalue="focus" />
+            <item index="11" class="java.lang.String" itemvalue="multiselect" />
+            <item index="12" class="java.lang.String" itemvalue="v-autocomplete" />
+            <item index="13" class="java.lang.String" itemvalue="apexcharts" />
+            <item index="14" class="java.lang.String" itemvalue="h4" />
+            <item index="15" class="java.lang.String" itemvalue="mdb-container" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="9">
+            <item index="0" class="java.lang.String" itemvalue="django-filter" />
+            <item index="1" class="java.lang.String" itemvalue="Django" />
+            <item index="2" class="java.lang.String" itemvalue="asgiref" />
+            <item index="3" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="4" class="java.lang.String" itemvalue="gunicorn" />
+            <item index="5" class="java.lang.String" itemvalue="django-cors-headers" />
+            <item index="6" class="java.lang.String" itemvalue="Pillow" />
+            <item index="7" class="java.lang.String" itemvalue="Faker" />
+            <item index="8" class="java.lang.String" itemvalue="sqlparse" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="hrm_project.models.related_query_name" />
+          <option value="int.days" />
+          <option value="int.seconds" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
