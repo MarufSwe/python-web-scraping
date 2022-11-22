@@ -8,7 +8,6 @@ csv_file = open('questions_body.csv', 'w') #save file name
 csv_writer = csv.writer(csv_file)
 csv_writer.writerow(['Questions', 'Body', 'Tags']) #column name
 
-session = HTMLSession()
 res = session.get('https://stackoverflow.com/questions/tagged/javascript?tab=votes&pagesize=50') #link
 
 questions = res.html.find('.summary') #HTML parent id (by '.' catch the html class)

@@ -38,7 +38,7 @@ def get_question_detail(url=None):
         # print("Body: ", body,)
         # # print( "Tag: ",tag)
         # print("Tags:", all_tags)
-        print()
+        # print()
 
 def questions_list(page=1):
     url = session.get(

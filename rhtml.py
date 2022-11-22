@@ -1,7 +1,7 @@
 import csv
 from requests_html import HTML, HTMLSession
 
-csv_file = open('cms.csv', 'w')
+csv_file = open('cms1.csv', 'w')
 csv_writer = csv.writer(csv_file)
 csv_writer.writerow(['headline', 'body', 'video'])
 
